@@ -1,0 +1,81 @@
+// Modal
+.emodal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9995;
+    position: fixed;
+    background: rgba(0,0,0,.75);
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+
+    .emodal-dialog {
+        margin: 0 1rem;
+        max-width: 400px;
+        display: block;
+        padding: 1rem;
+        border: 2px solid #ddd;
+        background: #f9f9f9;
+        border-radius: 4px;
+        box-shadow: 2px 2px 10px rba(0,0,0,1);
+    }
+
+    .emodal-dialog__title {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #444;
+        padding: 0 0 .5rem;
+        border-bottom: 1px solid #168B87;
+    }
+
+    .emodal-dialog__close {
+        cursor: pointer;
+        display: inline-flex;
+        justify-content: center; align-items: center;
+        width: 1.75rem; height: 1.75rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-top: -.25rem;
+    }
+
+    .emodal-dialog__close:hover {
+        background: #333333;
+        color: #f9f9f9;
+    }
+
+    .emodal-dialog__body {
+        font-size: .9rem;
+        padding: .5rem 0;
+    }
+
+    .emodal-dialog__ui {
+        text-align: center;
+        padding: .75rem 0 0;
+    }
+
+    .emodal-dialog__button {
+        position: relative;
+        padding: .25rem .75rem;
+        background: #f9f9f9;
+        border: 1px solid #ccc;
+        color: #444;
+        border-radius: 4px;
+        box-shadow: 0 0 5px rgba(110, 110, 110, 0.2);
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .emodal-dialog__button:hover {
+        background: #ddd;
+    }
+
+    .my-modal-dialog__button:focus {
+        box-shadow: 0 0 0 4px #bbb;
+        outline: none;
+    }
+}
