@@ -85,7 +85,7 @@
     overflow: hidden;
     width: 100%;
     min-height: 400px;
-    scroll-behavior: smooth;
+    // scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
 }
 
@@ -103,17 +103,23 @@
     display: flex;
     align-items: stretch;
     max-width: 1100px;
-    margin: 0 auto;
+    // margin: 0 auto;
 }
 
 .slide_a {
-    background-image: url("assets/apresentacao-bg-a.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 60%), url("assets/apresentacao-bg-a.jpg");
     background-size: cover;
     background-position: center bottom;
 }
 
 .slide_b {
-    background-image: url("assets/apresentacao-bg-b.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 60%), url("assets/apresentacao-bg-b.jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.slide_c {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 60%), url("assets/apresentacao-bg-c.jpg");
     background-size: cover;
     background-position: center bottom;
 }

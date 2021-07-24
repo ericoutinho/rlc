@@ -7,6 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= bloginfo('title') ?></title>
 
+    <!-- Primary Meta Tags -->
+    <title>RLC Confecções e Uniformes Profissionais</title>
+    <meta name="title" content="RLC Confecções e Uniformes Profissionais">
+    <meta name="description" content="Somos uma empresa especializada na fabricação de uniformes profissionais para todos os setores da economia">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?= home_url() ?>">
+    <meta property="og:title" content="RLC Confecções e Uniformes Profissionais">
+    <meta property="og:description" content="Somos uma empresa especializada na fabricação de uniformes profissionais para todos os setores da economia">
+    <meta property="og:image" content="<?= get_template_directory_uri() ?>/assets/rlc-confecoes-e-uniformes-cover-website.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?= home_url() ?>">
+    <meta property="twitter:title" content="RLC Confecções e Uniformes Profissionais">
+    <meta property="twitter:description" content="Somos uma empresa especializada na fabricação de uniformes profissionais para todos os setores da economia">
+    <meta property="twitter:image" content="<?= get_template_directory_uri() ?>/assets/rlc-confecoes-e-uniformes-cover-website.jpg">
+
     <link rel="apple-touch-icon" sizes="180x180" href="<?= get_template_directory_uri() ?>/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= get_template_directory_uri() ?>/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?= get_template_directory_uri() ?>/assets/favicon-16x16.png">
@@ -42,9 +61,9 @@
                         <li><a href="#produtos">Produtos</a></li>
                         <li><a href="#contato">Contato</a></li>
                         <li class="menu-links__group">
-                            <a href="#"><i class="fab fa-lg fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-lg fa-facebook-square"></i></a>
-                            <a href="#"><i class="fab fa-lg fa-whatsapp"></i></a>
+                            <a href="https://instagram.com/rlc_confeccoes" target="_blank"><i class="fab fa-lg fa-instagram"></i></a>
+                            <a href="https://facebook.com/rlc_confeccoes" target="_blank"><i class="fab fa-lg fa-facebook-square"></i></a>
+                            <a href="https://wa.me/5527998461218" target="_blank"><i class="fab fa-lg fa-whatsapp" target="_blank"></i></a>
                         </li>
                     </ul>
                 </nav>
@@ -87,12 +106,12 @@
                         <div class="slider-item__body">
                             <div class="row d-flex align-items-center">
                                 <div class="col-12 col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
-                                    <h2 class="mb-4">Uniformes personalizados com qualidade superior</h2>
+                                    <h2 class="mb-3">Uniformes personalizados de alta qualidade.</h2>
                                     <p class="mb-4">Valorize ainda mais a imagem de sua marca, empresa ou evento utilizando os uniformes de excelência da RLC Confecções.</p>
                                     <a href="#produtos" class="botao botao-primario"><i class="fas fa-star me-2"></i>Conheça nossos uniformes</a>
                                 </div>
                                 <div class="col-12 col-lg-6 align-self-end text-center">
-                                    <img src="<?= get_template_directory_uri() ?>/assets/apresentacao-rlc-actor.png" style="max-width:30vw; width:100%; height: auto;" class="lazzy from-right">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/apresentacao-rlc-actor.webp" style="max-width:30vw; width:100%; height: auto;" class="lazzy from-right">
                                 </div>
                             </div>
                         </div>
@@ -104,12 +123,29 @@
                         <div class="slider-item__body">
                             <div class="row d-flex align-items-center">
                                 <div class="col-12 col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
-                                    <h2 class="mb-4">Uniformes personalizados com qualidade superior</h2>
-                                    <p class="mb-4">Valorize ainda mais a imagem de sua marca, empresa ou evento utilizando os uniformes de excelência da RLC Confecções.</p>
-                                    <a href="#produtos" class="botao botao-primario"><i class="fas fa-star me-2"></i>Conheça nossos uniformes</a>
+                                    <h2 class="mb-3">Modelos para todos os estilos.</h2>
+                                    <p class="mb-4">A RLC oferece soluções em uniformes personalizados confortáveis, com cortes modernos, ótimo acabamento e excelente custo-benefício.</p>
+                                    <a href="#produtos" class="botao botao-primario"><i class="fas fa-plus me-2"></i>Saiba um pouco mais</a>
                                 </div>
                                 <div class="col-12 col-lg-6 align-self-end text-center">
-                                    <img src="<?= get_template_directory_uri() ?>/assets/apresentacao-rlc-actor.png" style="max-width:30vw; width:100%; height: auto;" class="lazzy from-right">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/apresentacao-rlc-actor-b.webp" style="max-width:30vw; width:100%; height: auto;" class="lazzy from-right">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fim slider item -->
+
+                    <!-- slider item -->
+                    <div class="slider-item slide_c">
+                        <div class="slider-item__body">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+                                    <h2 class="mb-3">Uniformes sob medida, não importa o setor de atuação.</h2>
+                                    <p class="mb-4">Independente do setor de atuação da empresa, a RLC possui diversos modelos e materiais para atender até aos gostos mais exigentes.</p>
+                                    <a href="#quem-somos" class="botao botao-primario"><i class="fas fa-plus me-2"></i>Conheça mais da RLC</a>
+                                </div>
+                                <div class="col-12 col-lg-6 align-self-end text-center">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/apresentacao-rlc-actor-c.webp" style="max-width:30vw; width:100%; height: auto;" class="lazzy from-right">
                                 </div>
                             </div>
                         </div>
@@ -151,11 +187,11 @@
                     <div class="col-12 col-lg-6">
 
                         <div class="card-profile lazzy from-left delay">
-                            <img class="card-profile__img" src="<?= get_template_directory_uri() ?>/assets/Cirlei-Knindel.jpg">
+                            <img class="card-profile__img" src="<?= get_template_directory_uri() ?>/assets/Cirlei-Knindel-n.jpg">
                             <div class="card-profile__body">
                                 <h4>Cirlei Knindel</h4>
                                 <p><i class="fas fa-chevron-right me-1" style="color: #b13b3d;"></i>Sócia Proprietária</p>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum eos repudiandae atque quasi omnis non maxime nostrum ratione!</p>
+                                <p>Sócia Mentora e Administrativa da RLC Confecções e Uniformes, possui expertise consolidada em vários segmentos de negócios no Mercado Capixaba</p>
                             </div>
                         </div>
 
@@ -164,11 +200,11 @@
                     <div class="col-12 col-lg-6">
 
                         <div class="card-profile lazzy from-right delay">
-                            <img class="card-profile__img" src="<?= get_template_directory_uri() ?>/assets/Lilian-Pissigate.jpg">
+                            <img class="card-profile__img" src="<?= get_template_directory_uri() ?>/assets/Lilian-Pissigate-n.jpg">
                             <div class="card-profile__body">
                                 <h4>Lilian Pissigate</h4>
                                 <p><i class="fas fa-chevron-right me-1" style="color: #b13b3d;"></i>Sócia Proprietária</p>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum eos repudiandae atque quasi omnis non maxime nostrum ratione!</p>
+                                <p>Sócia com expertise em Gestão de Relacionamentos com Ênfase em Resultados, especialista em escalonabilidade de produção e projetos.</p>
                             </div>
                         </div>
 
@@ -198,7 +234,7 @@
                                     <p>Nossa linha corporativa possui diversas opções em peças confortáveis para uso diário, com materiais de fácil lavagem e que mantêm aspecto de novo por muito mais tempo, reduzindo os custos de manutenção de uniformes. Além disso, são todos pensados para entregar um visual sofisticado, valorizando ambientes corporativos e o atendimento ao público em geral.</p>
                                 </div>
                                 <div class="col-12 col-lg-5 text-center lazzy from-right">
-                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-corporativa-ator.png">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-corporativa-ator.webp">
                                 </div>
                             </div>
                         </div>
@@ -208,7 +244,7 @@
                         <div class="card-categorias cozinha">
                             <div class="row">
                                 <div class="col-12 col-lg-5 text-center order-2 order-lg-1 lazzy from-left">
-                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-cozinha-ator.png">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-cozinha-ator.webp">
                                 </div>
                                 <div class="col-12 col-lg-7 d-flex flex-column justify-content-center order-1 order-lg-2">
                                     <h3 class="mb-3">Linha Cozinha</h3>
@@ -226,7 +262,7 @@
                                     <p>Com soluções pensadas na praticidade e durabilidade, os uniformes da linha saúde da RLC ainda possuem opções de materiais que inibem a contaminação e propagação de microorganismos, sendo a opção ideal para profissionais de hospitais, clínicas, consultórios e ambulatórios. </p>
                                 </div>
                                 <div class="col-12 col-lg-5 text-center lazzy from-right">
-                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-saude-ator.png">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-saude-ator.webp">
                                 </div>
                             </div>
                         </div>
@@ -236,7 +272,7 @@
                         <div class="card-categorias operacional">
                             <div class="row">
                                 <div class="col-12 col-lg-5 text-center order-2 order-lg-1 lazzy from-left">
-                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-operacional-ator.png">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-operacional-ator.webp">
                                 </div>
                                 <div class="col-12 col-lg-7 d-flex flex-column justify-content-center order-1 order-lg-2">
                                     <h3 class="mb-3">Linha Operacional</h3>
@@ -254,7 +290,7 @@
                                     <p>São várias opções voltadas em atender as mais diversificados nichos de negócios. Você encontra opções em aventais, toucas, bandanas, calças, camisas, blusas, saias, bermudas e tudo mais o que for necessário para compor o look personalizado dos uniformes da sua empresa.</p>
                                 </div>
                                 <div class="col-12 col-lg-5 text-center lazzy from-right">
-                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-comercial-ator.png">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/linha-comercial-ator.webp">
                                 </div>
                             </div>
                         </div>
